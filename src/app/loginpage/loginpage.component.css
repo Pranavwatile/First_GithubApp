@@ -1,0 +1,10 @@
+.centre{
+    margin-top: 15px;
+    border: 1px solid black ;
+    width: 30%;
+
+    padding: 45px;
+    position: absolute ;
+    top: 15%;
+    left: 35% ;
+}

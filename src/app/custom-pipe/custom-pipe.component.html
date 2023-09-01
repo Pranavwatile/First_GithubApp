@@ -1,0 +1,17 @@
+<table class="table table-bordered border-primary">
+    <thead>
+      <tr>
+        
+        <th scope="col">Student Name</th>
+        <th scope="col">Id</th>
+        <th scope="col">Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of studentData" name="">
+        <td  >{{student.studentname | impipe: student.gender }}</td>
+        <td>{{student.id}}</td>
+        <td>{{student.gender }}</td>
+      </tr>
+    </tbody>
+  </table>
